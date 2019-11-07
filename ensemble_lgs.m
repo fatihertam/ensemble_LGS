@@ -1,5 +1,5 @@
 clc,clear all,close all
-dosya=dir('C:\Users\tunce\Desktop\eski masaüstü\epilpesifull\*.txt');
+dosya=dir('path/*.txt');
 say=1;
 for k=1:length(dosya)
     sinyal=textread(dosya(k).name);
